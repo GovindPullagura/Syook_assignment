@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Welcome to Syook Logistics.");
 });
 app.use("/items", itemsRouter);
 app.use("/vehicles", vehicleRouter);
